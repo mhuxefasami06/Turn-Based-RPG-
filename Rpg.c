@@ -24,7 +24,7 @@ struct Enemy
 
 struct Player player;
 
-/* Function Prototypes */
+
 void createCharacter();
 void showStats();
 void gameMenu();
@@ -191,7 +191,7 @@ void enemyTurn(struct Enemy enemy)
 
     printf("\nEnemy Turn!\n");
 
-    /* Simple Enemy AI */
+
     if(enemy.hp < 20)
     {
         printf("Enemy becomes desperate and attacks fiercely!\n");
