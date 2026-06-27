@@ -24,7 +24,7 @@ struct Enemy
 
 struct Player player;
 
-
+/* Function Prototypes */
 void createCharacter();
 void showStats();
 void gameMenu();
